@@ -29,7 +29,7 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
 <img class="size-full wp-image-1466 lazyloaded" src="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg" data-src="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg" alt="winXray手动填写信息" width="1031" height="692" data-srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg 1031w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-300x201.jpg 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-1024x687.jpg 1024w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-768x515.jpg 768w" data-sizes="(max-width: 1031px) 100vw, 1031px" sizes="(max-width: 1031px) 100vw, 1031px" srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg 1031w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-300x201.jpg 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-1024x687.jpg 1024w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-768x515.jpg 768w"><figcaption id="caption-attachment-1466" class="wp-caption-text">winXray手动填写信息</figcaption>
 
 <h3>因手动配置节点较为麻烦，下面给出各种常用配置的模板：</h3>
-<p><strong>VLESS+TCP+XTLS配置模板</strong></p>
+<p><strong>VLESS+TCP+XTLS配置模板：</strong></p>
 <pre> {
         "address":"服务器ip或者域名",
         "flow":"xtls-rprx-direct",
@@ -39,4 +39,62 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
         "protocol":"vless",
         "ps":"填写备注",
         "tls":"xtls"
+ }</pre>
+<p><strong>VLESS+WS+TLS配置模板：</strong></p>
+<pre> {
+        "address":"服务器ip或者域名",
+        "flow":"xtls-rprx-direct",
+        "id":"填写uuid",
+        "network":"ws",
+        "path": "伪装路径",
+        "port": 填写端口,
+        "protocol":"vless",
+        "ps":"填写备注",
+        "sni": "伪装域名",
+        "tls":"tls"
+ }</pre>
+<p><strong>VMESS配置模板：</strong></p>
+<pre> {
+        "address":"服务器ip或者域名",
+        "id":"填写uuid",
+        "network":"tcp",
+        "port": 填写端口,
+        "protocol":"vmess",
+        "ps":"填写备注"
+ }</pre>
+ <p><strong>VMESS+WS+TLS配置模板：</strong></p>
+<pre> {
+        "address":"服务器ip或者域名",
+        "id":"填写uuid",
+        "network":"ws",
+        "path": "伪装路径",
+        "port": 填写端口,
+        "protocol":"vmess",
+        "ps":"填写备注",
+        "sni": "伪装域名",
+        "tls":"tls"
+ }</pre>
+ <p><strong>trojan配置模板：</strong></p>
+<pre> {
+        "address":"服务器ip或者域名",
+        "id":"填写uuid",
+        "network":"tcp",
+        "port": 填写端口,
+        "protocol":"trojan",
+        "ps":"填写备注",
+        "sni": "伪装域名",
+        "tls":"tls"
+ }</pre>
+  <p><strong>trojan-go+WS+TLS配置模板：</strong></p>
+<pre> {
+        "address":"服务器ip或者域名",
+        "id":"填写uuid",
+        "network":"ws",
+        "path": "伪装路径"
+        "port": 填写端口,
+        "protocol":"trojan",
+        "ps":"填写备注",
+        "host": "伪装域名",
+        "sni": "伪装域名",
+        "tls":"tls"
  }</pre>
