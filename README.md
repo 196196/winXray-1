@@ -28,4 +28,5 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
 3. winXray也支持手动配置节点，使用上相对较为麻烦。首先点击“配置”切换页面，然后以json方式手动填写节点信息。
 <img class="size-full wp-image-1466 lazyloaded" src="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg" data-src="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg" alt="winXray手动填写信息" width="1031" height="692" data-srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg 1031w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-300x201.jpg 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-1024x687.jpg 1024w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-768x515.jpg 768w" data-sizes="(max-width: 1031px) 100vw, 1031px" sizes="(max-width: 1031px) 100vw, 1031px" srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息.jpg 1031w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-300x201.jpg 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-1024x687.jpg 1024w, https://v2xtls.org/wp-content/uploads/2020/12/winXray手动填写信息-768x515.jpg 768w"><figcaption id="caption-attachment-1466" class="wp-caption-text">winXray手动填写信息</figcaption>
 
-因手动配置节点较为麻烦，下面给出各种常用配置的模板：
+<h3>因手动配置节点较为麻烦，下面给出各种常用配置的模板：</h3>
+<p><strong>VLESS+TCP+XTLS配置模板</strong></p>
