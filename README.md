@@ -98,3 +98,5 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
         "sni": "伪装域名",
         "tls":"tls"
  }</pre>
+4. 按照上述设置后，一般就可以上网了。如果依然不能上外网，可以点击“配置”页面中的“高级设置”查看配置信息，一般情况下不需要改动：
+<img class="size-full wp-image-1467 lazyloaded" src="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png" data-src="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png" alt="winXray高级设置" width="1020" height="683" data-srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png 1020w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-300x201.png 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-768x514.png 768w" data-sizes="(max-width: 1020px) 100vw, 1020px" sizes="(max-width: 1020px) 100vw, 1020px" srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png 1020w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-300x201.png 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-768x514.png 768w">
