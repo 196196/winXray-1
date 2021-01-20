@@ -101,5 +101,9 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
 4. 按照上述设置后，一般就可以上网了。如果依然不能上外网，可以点击“配置”页面中的“高级设置”查看配置信息，一般情况下不需要改动：
 <img class="size-full wp-image-1467 lazyloaded" src="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png" data-src="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png" alt="winXray高级设置" width="1020" height="683" data-srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png 1020w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-300x201.png 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-768x514.png 768w" data-sizes="(max-width: 1020px) 100vw, 1020px" sizes="(max-width: 1020px) 100vw, 1020px" srcset="https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置.png 1020w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-300x201.png 300w, https://v2xtls.org/wp-content/uploads/2020/12/winXray高级设置-768x514.png 768w"><figcaption id="caption-attachment-1466" class="wp-caption-text">winXray高级设置</figcaption>
 <h3>winXray注意事项</h3>
-1. 首次运行winXray时会在当前目录查找“./xray-core/xray.exe”，如果没有找到会自动到v2ray官网下载，不过没有代理服务器下载有时候非常慢；
-2. winXray配置中必须省略concurrency。
+<p>1. 首次运行winXray时会在当前目录查找“./xray-core/xray.exe”，如果没有找到会自动到v2ray官网下载，不过没有代理服务器下载有时候非常慢；</p>
+<p>2. winXray配置中必须省略concurrency。</p>
+ 
+                          
+                          
+                                      <h3>本篇文章转自https://v2xtls.org/xray%E4%B8%93%E5%B1%9E%E5%AE%A2%E6%88%B7%E7%AB%AFwinxray%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</h3>  
