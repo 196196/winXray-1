@@ -30,3 +30,13 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
 
 <h3>因手动配置节点较为麻烦，下面给出各种常用配置的模板：</h3>
 <p><strong>VLESS+TCP+XTLS配置模板</strong></p>
+<pre> {
+        "address":"服务器ip或者域名",
+        "flow":"xtls-rprx-direct",
+        "id":"填写uuid",
+        "network":"tcp",
+        "port": 端口,
+        "protocol":"vless",
+        "ps":"填写备注",
+        "tls":"xtls"
+ }</pre>
