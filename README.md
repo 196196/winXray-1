@@ -18,3 +18,4 @@ winXray可在服务器连接异常时自动更换代理服务器，再也不用�
 <h3>winXray使用教程:</h3>
 1. 从<a href="https://v2xtls.org/v2ray-windows%e5%ae%a2%e6%88%b7%e7%ab%af%e4%b8%8b%e8%bd%bd/">V2ray客户端</a>下载winXray；
 2. winXray支持导入节点。如果你有节点URL或者订阅地址（支持V2ray/SS/Trojan，暂不支持Xray和XTLS），打开winXray客户端在“首页”列表中点右键，选择“自粘贴板批量导入分享链接和订阅源”，然后双击某个节点就可以使用了。
+<img class=https://github.com/Vincent-xiaoyao/winXray/blob/main/img/winXray%E5%AE%A2%E6%88%B7%E7%AB%AF.jpg>
